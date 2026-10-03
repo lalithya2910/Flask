@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Transactional History{% endblock %}
+
+{% block css %}
+<link rel='stylesheet' href='../static/transactions.css'>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center mb-4" id="history-title">Transactional History</h1>
+
+{% if history %}
+
+<table border="1" class="table table-bordered table-striped bg-white mx-auto shadow" id="history-table">
+
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Transaction Description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for i in history %}
+        <tr>
+            <td>{{loop.index}}</td>
+            <td>{{i}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+
+{% else %}
+
+<div class="alert alert-warning text-center">
+    No Transactional History
+</div>
+
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: rgb(106, 27, 180);
+    margin-top: 50px;
+}
+form input[type="submit"] {
+    background-color: rgb(106, 27, 180);;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}

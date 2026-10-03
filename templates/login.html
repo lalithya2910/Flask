@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Login Page
+{% endblock %}
+{% block css %}
+<link rel="stylesheet" href="../static/login.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Login Page</h1>
+
+<form method="post">
+
+    <label>Enter the mail:</label>
+    <input type="email" name="email" required>
+
+    <br><br>
+
+    <label>Enter the pin:</label>
+    <input type="password" name="pin" required>
+
+    <br><br>
+
+    <input type="submit" value="Login">
+
+
+
+<p>Forgot PIN? <a href="/forgotpin">Click here</a></p>
+
+<p>New User? <a href="/register">Register</a></p>
+</form>
+
+<p>{{ info if info else '' }}</p>
+
+{% endblock %}

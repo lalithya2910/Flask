@@ -1,0 +1,63 @@
+/* Login page heading */
+h1 {
+    text-align: center;
+    color: rgb(140, 0, 255);
+    margin-top: 50px;
+}
+
+/* Login form */
+form {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+form label {
+    color: #333;
+}
+
+/* Email and PIN input fields */
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Login button */
+form input[type="submit"] {
+    background-color: rgb(106, 27, 180);;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login button hover */
+form input[type="submit"]:hover {
+    background-color: rgb(106, 27, 180);;
+}
+
+/* Forgot PIN and Register text */
+form p {
+    text-align: center;
+}
+
+/* Links */
+form a {
+    color: rgb(106, 27, 180);;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}

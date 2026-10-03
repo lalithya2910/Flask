@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Base{% endblock %}</title>
+
+    <link rel="stylesheet" href="../static/base.css">
+
+    {% block css %} {% endblock %}
+</head>
+
+<body>
+
+    <nav>
+        {% if session["id"] %}
+            <a href="/dashboard">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/logout">Logout</a>
+        {% else %}
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+        {% endif %}
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>
+       <p> @2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

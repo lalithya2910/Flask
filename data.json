@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "kundana",
+            "email": "kundana@gmail.com",
+            "pin": "1234",
+            "balance": 0,
+            "history": []
+        },
+        {
+            "id": 2,
+            "name": "likhitha",
+            "email": "likhitha@gmail.com",
+            "pin": "1235",
+            "balance": 0,
+            "history": []
+        },
+        {
+            "id": 3,
+            "name": "lalithya",
+            "email": "vanacharlalalithya@gmail.com",
+            "pin": "12345",
+            "balance": 2610,
+            "history": [
+                "10 is deposited",
+                "1200 is deposited",
+                "1200 is deposited",
+                "200 is deposited"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Rama Krishna",
+            "email": "vrkprasad44@gmail.com",
+            "pin": "123",
+            "balance": 0,
+            "history": []
+        }
+    ]
+}

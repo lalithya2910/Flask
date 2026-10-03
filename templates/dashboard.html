@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="../static/dashboard.css">
+{% endblock %}
+
+{% block content %}
+
+<div id="dashboard-content">
+
+    <h1>Welcome to ATM</h1>
+
+    <p><a href="/checkbalance">Check Balance</a></p>
+    <p><a href="/deposit">Deposit</a></p>
+    <p><a href="/withdraw">Withdraw</a></p>
+    <p><a href="/viewtransactions">View Transactions</a></p>
+
+</div>
+
+{% endblock %}

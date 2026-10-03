@@ -1,0 +1,36 @@
+/* Transaction History heading */
+#history-title {
+    color:rgb(106, 27, 180);
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Table box */
+#history-table {
+    width: 500px;
+    height: 170px;
+    margin: 40px auto;
+    background-color: white;
+    border: 2px black;
+    border-collapse: collapse;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Table cells */
+#history-table th,
+#history-table td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table heading */
+#history-table th {
+    color: black;
+    background-color: white;
+}
+
+/* Transaction text */
+#history-table td {
+    color: #333;
+}

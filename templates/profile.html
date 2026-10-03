@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Profile
+{% endblock %}
+{% block css %}
+<link rel="stylesheet" href="../static/profile.css">
+
+{% endblock %}
+
+
+
+{% block content %}
+<h1>Profile</h1>
+
+{% for key in user %}
+<p>{{ key }}: {{ user[key] }}</p>
+{% endfor %}
+
+{% endblock %}

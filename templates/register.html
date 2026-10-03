@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}egister{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="../static/register.css">
+
+{% endblock %}
+
+
+{% block content %}
+<h1>
+    Register Page
+</h1>
+
+<form method="post">
+    <label>Enter the name: </label>
+    <input type="text" name="name">
+    <br><br>
+    <label>Enter the mail: </label>
+    <input type="email" name="email">
+    <br><br>
+    <label>Enter the pin: </label>
+    <input type='password' name="pin">
+    <br><br>
+    <label>Confirm the pin: </label>
+    <input type="password" name="cpin">
+    <br><br>
+
+    <input type="submit" value="Register">
+
+
+<p>Already have account? <a href="/login">Login</a></p>
+
+</form>
+
+<p>{{info if info else ''}}</p>
+
+{% endblock %}

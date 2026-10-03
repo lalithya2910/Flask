@@ -1,0 +1,64 @@
+/* Register page heading */
+h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+}
+
+/* Register form */
+form {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+form label {
+    color: #333;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Register button */
+form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover */
+form input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+/* Login text */
+form p {
+    text-align: center;
+}
+
+/* Login link */
+form a {
+    color: blue;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}

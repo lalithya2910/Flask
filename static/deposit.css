@@ -1,0 +1,47 @@
+/* Deposit heading */
+h1 {
+    text-align: center;
+    color: rgb(106, 27, 180);
+    margin-top: 50px;
+}
+
+/* Deposit form */
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px  black;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Label */
+form label {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Amount input */
+form input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Deposit button */
+form input[type="submit"] {
+    background-color:rgb(106, 27, 180);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover */
+form input[type="submit"]:hover {
+    background-color: rgb(106, 27, 180);
+}
